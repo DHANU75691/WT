@@ -1,0 +1,22 @@
+<html>
+<head>
+<script type="text/javascript">
+function lighton()
+{
+document.getElementById('myimage').src="rpof.cms";
+}
+function lightoff()
+{
+document.getElementById('myimage').src="rpon.htm";
+}
+</script>
+</head>
+
+<body>
+<img id="myimage" onmousedown="lighton()" 
+onmouseup="lightoff()" 
+src="bulboff.gif" width="300" 
+height="300">
+<p>Click to watch</p>
+</body>
+</html>
